@@ -1,5 +1,6 @@
 ---
-subtitle: Contributing Database Compatibility
+layout: default
+title: Contributing Database Compatibility
 ---
 # Contributing Database Compatibility to Flyway
 
