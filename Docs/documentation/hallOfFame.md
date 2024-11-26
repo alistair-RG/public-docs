@@ -1,5 +1,5 @@
 ---
-layout: documentation
+layout: default
 menu: hallOfFame
 subtitle: Hall Of Fame
 ---
