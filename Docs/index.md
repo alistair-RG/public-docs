@@ -21,3 +21,7 @@ You want to change some part of the core of Flyway
 
 ### Submitting for review
 - [Submit your Changes](documentation/submit)
+
+If you are looking for the product documentation it is on the [Redgate documentation site](https://documentation.red-gate.com/fd/flyway-cli-and-api-183306238.html)
+
+If you are looking for the API documentation it is on [javadoc.io](https://javadoc.io/doc/org.flywaydb)
