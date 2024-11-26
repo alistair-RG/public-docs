@@ -53,28 +53,34 @@ and place them in your local directory.
 
 by invoking:
 
-<pre class="console">mvn install:install-file -DgroupId=net.adoptopenjdk \
--DartifactId=jre \
--Dclassifier=windows-x64 \
--Dtype=zip \
--Dversion=17.0.6 \
--Dpackaging=zip \
--Dfile=path/to/OpenJDK17U-jre_x64_windows_hotspot_17.0.6_10.zip</pre>
 
-<pre class="console">mvn install:install-file -DgroupId=net.adoptopenjdk \
--DartifactId=jre \
--Dclassifier=linux-x64 \
--Dtype=tar.gz \
--Dversion=17.0.6 \
--Dpackaging=tar.gz \
--Dfile=path/to/OpenJDK17U-jre_x64_linux_hotspot_17.0.6_10.tar.gz</pre>
+    mvn install:install-file -DgroupId=net.adoptopenjdk \
+        -DartifactId=jre \
+        -Dclassifier=windows-x64 \
+        -Dtype=zip \
+        -Dversion=17.0.6 \
+        -Dpackaging=zip \
+        -Dfile=path/to/OpenJDK17U-jre_x64_windows_hotspot_17.0.6_10.zip
 
-<pre class="console">mvn install:install-file -DgroupId=net.adoptopenjdk \
--DartifactId=jre \
--Dclassifier=macos-x64 \
--Dtype=tar.gz \
--Dversion=17.0.6 \
--Dpackaging=tar.gz \
--Dfile=path/to/OpenJDK17U-jre_x64_mac_hotspot_17.0.6_10.tar.gz</pre>
+
+
+    mvn install:install-file -DgroupId=net.adoptopenjdk \
+        -DartifactId=jre \
+        -Dclassifier=linux-x64 \
+        -Dtype=tar.gz \
+        -Dversion=17.0.6 \
+        -Dpackaging=tar.gz \
+        -Dfile=path/to/OpenJDK17U-jre_x64_linux_hotspot_17.0.6_10.tar.gz
+
+
+
+    mvn install:install-file -DgroupId=net.adoptopenjdk \
+        -DartifactId=jre \
+        -Dclassifier=macos-x64 \
+        -Dtype=tar.gz \
+        -Dversion=17.0.6 \
+        -Dpackaging=tar.gz \
+        -Dfile=path/to/OpenJDK17U-jre_x64_mac_hotspot_17.0.6_10.tar.gz
+
 
 
