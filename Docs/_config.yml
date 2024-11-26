@@ -1,2 +1,6 @@
+theme: jekyll-theme-minimal
+title: Contributinh to Flyway
+description: How to contribute changes to Flyway
+
 exclude:
    - "*.yaml"
