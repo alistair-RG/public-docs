@@ -7,6 +7,7 @@
 #
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+remote_theme: pages-themes/minimal@v0.2.0
 
 # Site settings
 # These are used to personalize your new site. If you look in the HTML files,
@@ -17,6 +18,7 @@ title: Contributing to Flyway
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
    Flyway - Database migrations made easy 
+logo: /assets/flyway-logo.png
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
@@ -27,7 +29,7 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
-
+  - jekyll-remote-theme # add this line to the plugins list if you already have one
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

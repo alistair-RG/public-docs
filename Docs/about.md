@@ -1,10 +1,10 @@
 ---
-layout: page
+layout: default
 title: About
 permalink: /about/
 ---
 
-Flyway - database migrations made easy.
+## Flyway - database migrations made easy.
 
 This is the documentation site for how to contribute code changes to flyway
 

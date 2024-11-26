@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Dev Environment Setup
 permalink: /documentation/setup
 ---
@@ -77,6 +77,4 @@ by invoking:
 -Dpackaging=tar.gz \
 -Dfile=path/to/OpenJDK17U-jre_x64_mac_hotspot_17.0.6_10.tar.gz</pre>
 
-<p class="next-steps">
-    <a style="text-decoration: none; background: rgb(204,0,0); padding: 6px 40px; border-radius: 10px; color: white; font-weight: bold;" href="Contribute/Code/Code - Submit your Changes">Submit your changes <i class="fa fa-arrow-right"></i></a>
-</p>
+

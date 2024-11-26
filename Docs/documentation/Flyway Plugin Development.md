@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Plugin Development
 permalink: /documentation/plugins
 ---
@@ -34,7 +34,7 @@ For the purposes of this tutorial, we will be explaining the following plugin ty
 The `PluginMetadata` interface (`org.flywaydb.core.extensibility.PluginMetadata`) is used to provide Flyway with metadata about a plugin.
 
 ### DatabaseType
-Open source database plugins have been moved to a separate repository, see: [Contributing Database Compatibility to Flyway](<Contribute/Contributing Database Compatibility to Flyway>)
+Open source database plugins have been moved to a separate repository, see: [Contributing Database Compatibility to Flyway](</documentation/communitydb>)
 
 ### ConfigurationExtension
 The `ConfigurationExtension` interface (`org.flywaydb.core.extensibility.ConfigurationExtension`) is used to provide Flyway with the ability to support new configuration options. This is usually used to provide new configuration options for plugins.
