@@ -1,6 +1,0 @@
-services:
-  build:
-    image: jekyll/jekyll:stable
-    volumes:
-      - "./:/srv/jekyll"
-    command: sh -c "chmod -R a+w /srv/jekyll && jekyll build -V"
