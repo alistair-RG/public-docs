@@ -4,10 +4,12 @@
 
 layout: default
 ---
-## Flyway
+## Index
 
 This is the documentation for how to contribute code changes to flyway
 - [Development environment setup](/documentation/setup)
-- [Contributing Database Compatibility](/documentation/communitydb)
-- [Plugin Development](/documentation/plugins)
+- You want to add or update database support in Flyway 
+   - [Contributing Database Compatibility](/documentation/communitydb)
+- You want to change some part of the core of Flyway 
+   - [Plugin Development](/documentation/plugins)
 - [Submit your Changes](/documentation/submit)
