@@ -1,3 +1,4 @@
 # ignore generated html files,
 _site/
 .jekyll-cache/
+Gemfile.lock
